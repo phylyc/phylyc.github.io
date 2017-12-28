@@ -1,12 +1,974 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Philipp Hähnel</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300,300italic,700,500,500italic,700italic,400italic%7CLato:400,700,300' rel='stylesheet' type='text/css'>
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/ionicons.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/owl.transitions.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
 <body>
-<p class="p1">Hello World</p>
-<script type="text/javascript" src="http://www.wolfram.com/cdf-player/plugin/v2.1/cdfplugin.js"></script>
-<script type="text/javascript">
-    var cdf = new cdfplugin();
-    cdf.setDefaultContent('<a href="http://www.wolfram.com/cdf-player/"><img  src="test.png"></a>');
-    cdf.embed('test.cdf', 1225, 647);
+
+    <div id="loader">
+        <div class="box-one"></div>
+        <div class="box-two"></div>
+        <div class="box-three"></div>
+        <div class="box-four"></div>
+    </div><!-- /.loader -->
+
+    <nav class="menu">
+        <ul class="menu-ul">
+            <li> <a href="#about"> About </a> </li>
+            <li> <a href="#skill-education"> Education </a> </li>
+            <li> <a href="#portfolio"> Publications </a> </li>
+            <li> <a href="#experience-testimonials"> Experience </a> </li>
+            <li> <a href="#fun-fact"> Silliness </a> </li>
+            <li> <a href="#contact"> Contact </a> </li>
+        </ul><!-- /. menu list -->
+        <div class="menu-holder">
+            <div class="menu-bar"></div>
+        </div>
+    </nav><!-- /. menu -->
+
+    <section id="home" class="header" style="background-image: url('assets/images/cover.jpeg')">
+        <div class="sector">
+            <div class="box">
+                <h1> PH </h1> <!-- name first char -->
+            </div>
+            <h1 class="main-title"> Philipp Hähnel </h1><!-- /. name -->
+            <h4 class="tagline"> Theoretical Physicist </h4><!-- /. profession -->
+        </div>
+    </section> <!-- /. header/cover -->
+
+    <section id="about">
+        <!-- Big Section Background Title -->
+        <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown">about</h1><!-- /. large title -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-sm-push-8">
+                   
+                    <div class="section-holder texture">
+                        <!-- draw line art -->
+                        <div class="line-art-top">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.top line -->
+                        <div class="line-art-bottom">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.bottom line -->
+                        <div class="line-art-left">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.left line -->
+                        <div class="line-art-right">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.right line -->
+
+                        <div class="img-holder">
+                            <img src="assets/images/profile.jpg" class="img-responsive img-circle" alt="Philipp Hähnel">
+                        </div>
+                        <div class="sep-mini"></div>
+                        <h4> Name: Philipp Hähnel </h4>
+                        <!--<h4> Date of birth:  </h4>-->
+                        <h4> Nationality: German </h4>
+                        
+                         <div class="social-links">
+                            <a href="https://github.com/phylyc"> <i class="ion-social-github-outline i-size-small"></i> </a>
+                            <a href="https://www.linkedin.com/in/philipp-haehnel"> <i class="ion-social-linkedin-outline i-size-small"></i> </a>
+                         </div><!-- /.social-links -->
+                        <!-- id used as tooltip title -->
+                        <a class="tooltip-cl cv-download" data-tooltip="Download CV" href="https://github.com/phylyc/phylyc.github.io/assets/cv.pdf"> <i class="ion-ios-download-outline i-size-small"></i> </a>
+
+                     </div><!-- /.section-holder -->
+                </div><!-- /. row -->
+
+                <!-- /.col-sm-4 -->
+                <div class="col-sm-8 col-sm-pull-4">
+                    <div class="section-holder">
+                        <!-- short bio -->
+                        <div class="icon-holder i-size-big">
+                            <i class="ion-ios-compose-outline"></i>
+                        </div>
+                        <h3 class="section-title"> About Me </h3>
+                        <p>
+                            I am serious. Humorous, (German-style) funny, precise, friendly, benevolent, forgiving, sharp, focused, efficient, optimized, interested, creative, smart and independent.
+                            <br><br>
+                            It's probably not me if it's not listed here.
+                        </p>
+                        <br>
+
+                        <!-- interests -->
+                        <div class="icon-holder i-size-small">
+                            <i class="ion-erlenmeyer-flask"></i>
+                        </div>
+                        <h4> Research Interests </h4>
+                        <p> (<b>AI</b>): reinforcement learning | deep learning | natural language processing | generic algorithms </p>
+                        <p> (<b>Physics</b>): higher spin theories | gauge/gravity duality and holography | AdS/CFT correspondence | quantum gravity | scattering amplitudes | twistor theory </p>
+                        <br>
+                        
+                        <!-- hobbies -->
+                        <div class="icon-holder i-size-small">
+                            <i class="ion-ios-paw-outline"></i>
+                        </div>
+                        <h4> Hobbies </h4>
+                        <p> dancing | whisky | hiking | piano | gaming </p>
+
+                    </div><!-- /.section-holder -->
+                </div><!-- /.col -->
+            </div><!-- /. row -->
+        </div><!-- /. container -->
+    </section><!-- /.about -->
+
+    <section id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                <div class="section-holder">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="icon-holder i-size-big">
+                                <i class="ion-quote"></i>
+                            </div>
+                        </div><!-- /.col-sm-12 -->
+                    </div><!-- /.row -->
+                    <div class="row">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-8">
+                            <div class="text-justify">
+                                <p>
+                                    <br>
+                                    Since long ago mankind has searched and found inspiration in the new and
+                                    unexplainable. The desire to understand unknown processes has led us to many a model,
+                                    describing experimental data and foremost predicting the outcome of new
+                                    measurements, thereby increasing our understanding of the numerous mysteries of
+                                    nature. Layer by layer, our models became seemingly more and more complicated as
+                                    each mathematical abstraction endowed a simplification in its description which yet
+                                    became harder and harder to grasp. Today, the search for a model of everything leads
+                                    us only deeper into the maze of complex theories, but many of us scientists are
+                                    still zealously fighting the minotaur guarding its secret. For we all have the hope
+                                    that one day, after the smoke of the uncountably many notation conventions has
+                                    cleared and the dust of (un)pleasingly bloody calculations has settled, the vision
+                                    becomes clear, revealing the very relations we were looking for so long.
+                                </p>
+                            </div>
+                        </div>
+                    </div><!-- /.row -->
+                </div><!-- /.section-holder -->
+                </div><!-- /.col-sm-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /.portfoilo -->
+
+    <section id="skill-education">
+        <!-- Big Section Background Title -->
+        <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown">education</h1><!-- /. large title -->
+
+        <div class="container">
+            <div class="row">
+                <!-- skills -->
+                <div class="col-sm-4">
+                    <div class="section-holder texture">
+                        <!-- draw line art -->
+                        <div class="line-art-top">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.top line -->
+                        <div class="line-art-bottom">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.bottom line -->
+                        <div class="line-art-left">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.left line -->
+                        <div class="line-art-right">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.right line -->
+
+                        <!-- skills -->
+                        <div class="icon-holder i-size-big">
+                            <i class="ion-ios-star-outline"></i>
+                        </div>
+
+                        <h3> Skills </h3>
+                        
+                        <div class="skill-holder">
+                        
+                        <div class="skill-area">
+                        <h4 class="skill-title"> Professional </h4><!-- /.skill type name -->
+                            
+                            <div class="skillbar clearfix" data-percent="100%">
+                                <div class="skillbar-title">
+                                    <span>LaTeX</span>
+                                </div>
+                                <div class="skillbar-bg">
+                                </div>
+                                <div class="skillbar-bar to-animate">
+                                </div>
+                                <div class="skill-bar-percent">
+                                    13 years
+                                </div>
+                            </div> <!-- /.skill bar -->
+                            
+                            <div class="skillbar clearfix" data-percent="100%">
+                                <div class="skillbar-title">
+                                    <span>Mathematica</span>
+                                </div>
+                                <div class="skillbar-bg">
+                                </div>
+                                <div class="skillbar-bar to-animate">
+                                </div>
+                                <div class="skill-bar-percent">
+                                    12 years
+                                </div>
+                            </div> <!-- /.skill bar -->
+
+                            <div class="skillbar clearfix" data-percent="100%">
+                                <div class="skillbar-title">
+                                    <span>Python</span>
+                                </div>
+                                <div class="skillbar-bg">
+                                </div>
+                                <div class="skillbar-bar to-animate">
+                                </div>
+                                <div class="skill-bar-percent">
+                                    5 months
+                                </div>
+                            </div> <!-- /.skill bar -->
+
+                            <div class="skillbar clearfix" data-percent="100%">
+                                <div class="skillbar-title">
+                                    <span>screwing around with<br>other people's code</span>
+                                </div>
+                                <div class="skillbar-bg">
+                                </div>
+                                <div class="skillbar-bar to-animate">
+                                </div>
+                                <div class="skill-bar-percent">
+                                    forever
+                                </div>
+                            </div> <!-- /.skill bar -->
+
+                            <div class="skillbar clearfix" data-percent="100%">
+                                <div class="skillbar-title">
+                                    <span>Blues Dancing</span>
+                                </div>
+                                <div class="skillbar-bg">
+                                </div>
+                                <div class="skillbar-bar to-animate">
+                                </div>
+                                <div class="skill-bar-percent">
+                                    10 + 3 years
+                                </div>
+                            </div> <!-- /.skill bar -->
+                        </div> <!-- /.skill area -->
+
+                        <div class="skill-area">
+                        <h4 class="skill-title"> Intermediate </h4><!-- /.skill type name -->
+                            <div class="skillbar clearfix" data-percent="100%">
+                                <div class="skillbar-title">
+                                    <span>Matlab / Scilab</span>
+                                </div>
+                                <div class="skillbar-bg">
+                                </div>
+                                <div class="skillbar-bar">
+                                </div>
+                                <div class="skill-bar-percent">
+                                    3 years
+                                </div>
+                            </div> <!-- /.skill bar -->
+
+                            <div class="skillbar clearfix" data-percent="100%">
+                                <div class="skillbar-title">
+                                    <span>Photoshop</span>
+                                </div>
+                                <div class="skillbar-bg">
+                                </div>
+                                <div class="skillbar-bar">
+                                </div>
+                                <div class="skill-bar-percent">
+                                    3 years
+                                </div>
+                            </div> <!-- /.skill bar -->
+
+                            <div class="skillbar clearfix" data-percent="100%">
+                                <div class="skillbar-title">
+                                    <span>Piano</span>
+                                </div>
+                                <div class="skillbar-bg">
+                                </div>
+                                <div class="skillbar-bar">
+                                </div>
+                                <div class="skill-bar-percent">
+                                    21 years
+                                </div>
+                            </div> <!-- /.skill bar -->
+                        </div> <!-- /.skill area -->
+                        
+                        <div class="skill-area">
+                        <h4 class="skill-title"> Beginner </h4><!-- /.skill type name -->
+                            <div class="skillbar clearfix" data-percent="100%">
+                                <div class="skillbar-title">
+                                    <span>C</span>
+                                </div>
+                                <div class="skillbar-bg">
+                                </div>
+                                <div class="skillbar-bar">
+                                </div>
+                                <div class="skill-bar-percent">
+                                    1 month
+                                </div>
+                            </div> <!-- /.skill bar -->
+
+                            <div class="skillbar clearfix" data-percent="100%">
+                                <div class="skillbar-title">
+                                    <span>Fiddle</span>
+                                </div>
+                                <div class="skillbar-bg">
+                                </div>
+                                <div class="skillbar-bar">
+                                </div>
+                                <div class="skill-bar-percent">
+                                    3 years (3 years ago)
+                                </div>
+                            </div> <!-- /.skill bar -->
+
+                            <div class="skillbar clearfix" data-percent="100%">
+                                <div class="skillbar-title">
+                                    <span>French</span>
+                                </div>
+                                <div class="skillbar-bg">
+                                </div>
+                                <div class="skillbar-bar">
+                                </div>
+                                <div class="skill-bar-percent">
+                                    6 years (10 years ago)
+                                </div>
+                            </div> <!-- /.skill bar -->
+                        </div> <!-- /.skill area -->
+
+                        </div> <!-- /.skill-holder -->
+                    </div> <!-- /.section-holder -->
+                </div> <!-- /.col-sm-4 -->
+                
+                <!-- education -->
+                <div class="col-sm-8">
+                    <div class="section-holder">
+                        <div class="icon-holder i-size-big">
+                            <i class="ion-university"></i>
+                        </div>
+                        <h3> Education </h3>
+                        <div class="time-line">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="time-item">
+                                        <div class="time-year">
+                                            2014-Present
+                                        </div>
+                                        <div class="icon-holder-time wow fadeIn">
+                                            <i class="ion-ios-circle-outline"></i>
+                                        </div>
+                                        <h4 class="time-title">
+                                        Doctor in Philosophy, Mathematics
+                                    </h4>
+                                        <h5 class="time-semitag"> Trinity College Dublin, Ireland </h5>
+                                        <p>
+                                            Higher spin scattering amplitudes from twistor theory
+                                        </p>
+                                    </div>
+                                </div><!-- /.col-md-12 -->
+                                <div class="col-sm-12">
+                                    <div class="time-item">
+                                        <div class="time-year">
+                                            2011-2014
+                                        </div>
+                                        <div class="icon-holder-time wow fadeIn" data-wow-delay=".25s">
+                                            <i class="ion-ios-circle-outline"></i>
+                                        </div>
+                                        <h4 class="time-title">
+                                        Master of Science, Physics
+                                    </h4>
+                                        <h5 class="time-semitag"> Humboldt University of Berlin, Germany </h5>
+                                        <p>
+                                            The one-loop effective action of N=4 SYM-type theories
+                                        </p>
+                                    </div>
+                                </div><!-- /.col-md-12 -->
+                                <div class="col-sm-12">
+                                    <div class="time-item">
+                                        <div class="time-year">
+                                            2007-2011
+                                        </div>
+                                        <div class="icon-holder-time wow fadeIn" data-wow-delay=".5s">
+                                            <i class="ion-ios-circle-outline"></i>
+                                        </div>
+                                        <h4 class="time-title">
+                                        Bachelor of Science, Physics
+                                    </h4>
+                                        <h5 class="time-semitag"> Humboldt University of Berlin, Germany </h5>
+                                        <p>
+                                            Minimal surfaces in anti-de Sitter spaces
+                                        </p>
+                                    </div>
+                                </div><!-- /.col-md-12 -->
+                            </div><!-- /.row -->
+                        </div><!-- /.time-line -->
+                    </div><!-- /.section-holder -->
+                </div><!-- /.section-holder -->
+            </div><!-- /.col-md-8 -->
+        </div><!-- /.container -->
+    </section><!-- /.skill & education -->
+
+    <section id="portfolio">
+        <!-- Big Section Background Title -->
+        <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown">publications
+        </h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                <div class="section-holder">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="icon-holder i-size-big">
+                                <i class="ion-ios-paper-outline"></i>
+                            </div>
+                            <h3> Publications </h3>
+                        </div><!-- /.col-sm-12 -->
+                    </div><!-- /.row -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ol>
+                                <li>
+                                    <h4 class="title">Conformal higher spin scattering amplitudes from twistor space</h4>
+                                    <h5 class="tag"> T. Adamo, P. Haehnel and T. McLoughlin:
+                                        <a href="https://arxiv.org/abs/1611.06200" class="mfp-iframe popup-it"><u>arXiv:1611.06200 [hep-th]</u></a>,
+                                        JHEP 1704:021, 2017
+                                    </h5>
+                                </li>
+                                <li>
+                                    <h4 class="title">Conformal higher spin theory and twistor space actions</h4>
+                                    <h5 class="tag"> P. Haehnel, T. McLoughlin:
+                                        <a href="https://arxiv.org/abs/1604.08209" class="mfp-iframe popup-it"><u>arXiv:1604.08209 [hep-th]</u></a>,
+                                        J. Phys. A: Math. Theor. <b>50</b> 485401
+                                    </h5>
+                                </li>
+                                <li>
+                                    <h4 class="title">On force-field models of the spacecraft flyby anomaly</h4>
+                                    <h5 class="tag"> W. Hasse, E. Birsin and P. Haehnel:
+                                        <a href="https://arxiv.org/abs/0903.0109" class="mfp-iframe popup-it"><u>arXiv:0903.0109 [gr-qc]</u></a>
+                                    </h5>
+                                </li>
+                            </ol>
+                        </div><!-- /.row -->
+                    </div><!-- /.row -->
+                </div><!-- /.section-holder -->
+                </div><!-- /.col-sm-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /.portfoilo -->
+
+    <section id="experience-testimonials">
+        <!-- Big Section Background Title -->
+        <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown">experience</h1><!-- /. large title -->
+
+        <div class="container">
+            <div class="row">
+                <!-- work experience -->
+                <div class="col-sm-8">
+                    <div class="section-holder">
+                        <div class="icon-holder i-size-big">
+                            <i class="ion-ios-briefcase"></i>
+                        </div>
+                        <h3> Work Experience </h3>
+                        <div class="time-line">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="time-item">
+                                        <div class="time-year">
+                                            2014-Present
+                                        </div>
+                                        <div class="icon-holder-time wow fadeIn">
+                                            <i class="ion-ios-circle-outline"></i>
+                                        </div>
+                                        <h4 class="time-title">Teaching assistant</h4>
+                                        <h5 class="time-semitag"> Trinity College Dublin, Ireland </h5>
+                                        <p>
+                                            Differential Geometry, General Relativity, Quantum Mechanics, Advanced Calculus, Classical Field Theory, Classical Electrodynamics
+                                        </p>
+                                    </div>
+                                    <div class="work-item-icon">
+                                    </div>
+                                </div><!-- /.col-md-12 -->
+
+                                <div class="col-sm-12">
+                                    <div class="time-item">
+                                        <div class="time-year">
+                                            2011-2013
+                                        </div>
+                                        <div class="icon-holder-time wow fadeIn" data-wow-delay=".25s">
+                                            <i class="ion-ios-circle-outline"></i>
+                                        </div>
+                                        <h4 class="time-title">Teaching assistant</h4>
+                                        <h5 class="time-semitag"> Humboldt University of Berlin, Germany </h5>
+                                        <p>
+                                            Quantum Field Theory I & II, Linear Algebra and Analytical Geometry I & II
+                                        </p>
+                                    </div>
+                                </div><!-- /.col-md-12 -->
+
+                                <div class="col-sm-12">
+                                    <div class="time-item">
+                                        <div class="time-year">
+                                            2006-2012
+                                        </div>
+                                        <div class="icon-holder-time wow fadeIn" data-wow-delay=".5s">
+                                            <i class="ion-ios-circle-outline"></i>
+                                        </div>
+                                        <h4 class="time-title">Organization of seminars for secondary school students</h4>
+                                        <h5 class="time-semitag"> Astrometrie, Wilhelm Foerster Observatory, Berlin;<br>seminars were held at the Technical University of Berlin </h5>
+                                        <p>
+                                            Introduction to General Relativity, Physics of the Sun, The EPR-Paradox, Anomalies in the Solar System, Gravitational Lenses, Physics of Stars, Recent Cosmology, Introduction to Quantum Physics, Black Holes
+                                        </p>
+                                    </div>
+                                </div><!-- /.col-md-12 -->
+
+                                <div class="col-sm-12">
+                                    <div class="time-item">
+                                        <div class="time-year">
+                                            2010-2011
+                                        </div>
+                                        <div class="icon-holder-time wow fadeIn" data-wow-delay=".5s">
+                                            <i class="ion-ios-circle-outline"></i>
+                                        </div>
+                                        <h4 class="time-title">Student Assistant</h4>
+                                        <a href="http://www.neurorobotik.de/index_en.php" class="mfp-iframe popup-it"><h5 class="time-semitag"> Neurorobotics Research Laboratory, Department of Informatics, HU Berlin </h5></a>
+                                        <p>
+                                            Software engineering: 2D physics simulator for exploration of autonomous robot designs
+                                        </p>
+                                    </div>
+                                </div><!-- /.col-md-12 -->
+
+                                <div class="col-sm-12">
+                                    <div class="time-item">
+                                        <div class="time-year">
+                                            2007
+                                        </div>
+                                        <div class="icon-holder-time wow fadeIn" data-wow-delay=".5s">
+                                            <i class="ion-ios-circle-outline"></i>
+                                        </div>
+                                        <h4 class="time-title">Student Internship</h4>
+                                        <h5 class="time-semitag"> Fraunhofer Institute for Open Communication Systems, Berlin </h5>
+                                        <p>
+                                            Data analysis: classifying neural signal data using k-fold cross-validation
+                                        </p>
+                                    </div>
+                                </div><!-- /.col-md-12 -->
+
+                                <div class="col-sm-12">
+                                    <div class="time-item">
+                                        <div class="time-year">
+                                            2005
+                                        </div>
+                                        <div class="icon-holder-time wow fadeIn" data-wow-delay=".5s">
+                                            <i class="ion-ios-circle-outline"></i>
+                                        </div>
+                                        <h4 class="time-title">Student Internship</h4>
+                                        <h5 class="time-semitag"> German Aerospace Center (DLR), Berlin </h5>
+                                        <p>
+                                            Image analysis: calculating atmospheric height of dust clouds on Mars
+                                        </p>
+                                    </div>
+                                </div><!-- /.col-md-12 -->
+
+                            </div><!-- /.time-line -->
+                        </div><!-- /.row -->
+                    </div><!-- /.section-holder -->
+                </div><!-- /.col-md-8 -->
+
+                <!-- testimonials -->
+                <div class="col-sm-4">
+                    <div class="section-holder texture">
+                       
+                        <!-- draw line art -->
+                        <div class="line-art-top">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.top line -->
+                        <div class="line-art-bottom">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.bottom line -->
+                        <div class="line-art-left">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.left line -->
+                        <div class="line-art-right">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.right line -->
+
+                        <div class="icon-holder i-size-big">
+                            <i class="ion-ios-gear-outline"></i>
+                        </div>
+
+                        <h3> Side Projects </h3>
+                        <div class="testi-holder owl-carousel owl-theme">
+                            
+                            <div class="testi-item">
+                                <a href="https://github.com/arenarium"> <i class="ion-social-github-outline i-size-small"></i> arenarium </a>
+                                <p> A platform for light-weight multi-player online games. Easy creation of games, user-interfaces, and automated NPCs. </p>
+                                <div class="testi-bottom">
+                                    <div class="i-size-small testi-icon">
+                                        <i class="ion-ios-game-controller-b-outline"></i>
+                                    </div>
+                                    <h5> collaborator: Vincent Lonij </h5>
+                                </div>
+                            </div><!-- /.testi-item -->
+
+                            <div class="testi-item">
+                                <img src="assets/images/morcar.jpg" class="img-circle" alt="Hero Quest"/>
+                                <p> An extension of the old classic boardgame Hero Quest with revised rules, new campaigns, and more cards. </p>
+                                <div class="testi-bottom">
+                                    <div class="i-size-small testi-icon">
+                                        <i class="ion-ios-people-outline"></i>
+                                    </div>
+                                    <h5> Hero Quest (1989) </h5>
+                                </div>
+                            </div><!-- /.testi-item -->
+
+                        </div><!-- /.testi-holder -->
+                    </div><!-- /.section-holder -->
+                </div><!-- /.col-md-4 -->
+            </div><!-- /.row -->
+        </div><!-- container -->
+    </section><!-- work experience & testimonials -->
+
+    <section id="work-process">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-holder">
+                        <div class="text-center">
+                            <div class="icon-holder-center i-size-big">
+                                <i class="ion-ribbon-b"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-center"> Honors and Awards </h3>
+
+                        <ul class="process">
+                            <li class="wow fadeIn" data-wow-delay=".15s">
+                                <div class="icon-process i-size-med">
+                                    <i class="ion-mic-b"></i>
+                                </div>
+                                <h4 class="title"> &nbsp; Over 10 invited talks &nbsp; <br>and posters</h4>
+                                <h6 class="tag">2014-present</h6>
+                            </li><!-- /.process item -->
+
+                            <li class="wow fadeIn" data-wow-delay=".45s">
+                                <div class="icon-process i-size-med">
+                                    <i class="ion-paper-airplane"></i>
+                                </div>
+                                <h4 class="title"> &nbsp; 'String Theory Universe' &nbsp; <br>travel grant </h4>
+                                <h6 class="tag">2015</h6>
+                            </li><!-- /.process item -->
+
+                            <li class="wow fadeIn" data-wow-delay=".6s">
+                                <div class="icon-process i-size-med">
+                                    <i class="ion-ribbon-a"></i>
+                                </div>
+                                <h4 class="title"> Scholarship of the<br> &nbsp; German National Academic Foundation &nbsp; </h4>
+                                <h6 class="tag">2007-2011</h6>
+                            </li><!-- /.process item -->
+
+                            <li class="wow fadeIn" data-wow-delay=".75s">
+                                <div class="icon-process i-size-med">
+                                    <i class="ion-trophy"></i>
+                                </div>
+                                <h4 class="title"> &nbsp; School's best graduation &nbsp; <br>in physics &nbsp; </h4>
+                                <h6 class="tag">2007</h6>
+                            </li><!-- /.process item -->
+
+                            <li class="wow fadeIn" data-wow-delay=".9s">
+                                <div class="icon-process i-size-med">
+                                    <i class="ion-funnel"></i>
+                                </div>
+                                <h4 class="title"> 3rd place in national round<br> &nbsp; of the 42nd competition 'Jugend forscht' &nbsp; </h4>
+                                <h6 class="tag">2007</h6>
+                            </li><!-- /.process item -->
+
+                            <li class="wow fadeIn" data-wow-delay="1.05s">
+                                <div class="icon-process i-size-med">
+                                    <i class="ion-wand"></i>
+                                </div>
+                                <h4 class="title"> 2nd place in Berlin round<br> &nbsp; of the 42nd competition 'Jugend forscht' &nbsp; </h4>
+                                <h6 class="tag">2007</h6>
+                            </li><!-- /.process item -->
+
+                        </ul><!-- /.process -->
+                    </div><!-- /.section-holder -->
+                </div><!-- /.col-sm-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /.work process -->
+
+    <section id="fun-fact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-holder">
+                        <div class="text-center">
+                            <div class="icon-holder-center i-size-big">
+                                <i class="ion-ios-barcode-outline"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-center"> Silliness </h3>
+                        <ul class="counter">
+                            <li>
+                                <div class="counter-icon i-size-med">
+                                    <a href="https://xkcd.com/" class="mfp-iframe popup-it">
+                                        <i class="ion-heart"></i>
+                                    </a>
+                                </div>
+                                <h4>xkcd</h4>
+                            </li><!-- /.counter list -->
+                            <li>
+                                <div class="counter-icon i-size-med">
+                                    <a href="https://www.smbc-comics.com/" class="mfp-iframe popup-it">
+                                        <i class="ion-heart-broken"></i>
+                                    </a>
+                                </div>
+                                <h4>SMBC</h4>
+                            </li><!-- /.counter list -->
+                            <li>
+                                <div class="counter-icon i-size-med">
+                                    <a href="http://www.webtoons.com/en/comedy/adventures-of-god/list?title_no=853" class="mfp-iframe popup-it">
+                                        <i class="ion-beer"></i>
+                                    </a>
+                                </div>
+                                <h4>Adventures of God</h4>
+                            </li><!-- /.counter list -->
+                            <li>
+                                <div class="counter-icon i-size-med">
+                                    <a href="http://www.webtoons.com/en/fantasy/tower-of-god/list?title_no=95" class="mfp-iframe popup-it">
+                                        <i class="ion-ios-pulse-strong"></i>
+                                    </a>
+                                </div>
+                                <h4>Tower of God</h4>
+                            </li><!-- /.counter list -->
+                        </ul><!-- /.counter -->
+                    </div><!-- /.section-holder -->
+                </div><!-- /.col-sm-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /.fun-fact -->
+
+    <section id="contact">
+        <!-- Big Section Background Title -->
+        <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown">contact</h1><!-- /. large title -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="section-holder texture">
+                        <!-- draw line art -->
+                        <div class="line-art-top">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.top line -->
+                        <div class="line-art-bottom">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.bottom line -->
+                        <div class="line-art-left">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.left line -->
+                        <div class="line-art-right">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.right line -->
+                        
+                        <div class="icon-holder i-size-big">
+                            <i class="ion-ios-wineglass-outline"></i>
+                        </div>
+                        <h3> Let's Talk </h3>
+                        <h5>Location: Dublin</h5>
+                        <h5>Email: haehnel [at] maths.tcd.ie</h5>
+                        <!--<a href="https://www.google.com/maps/place/Trinity+College+Dublin/@53.3436835,-6.2606469,14z" class="mfp-iframe popup-it"><h4 class="map-open"> Open Map </h4></a>-->
+                        <div class="social-links">
+                            <a href="https://github.com/phylyc"> <i class="ion-social-github-outline i-size-small"></i> </a>
+                            <a href="https://www.linkedin.com/in/philipp-haehnel"> <i class="ion-social-linkedin-outline i-size-small"></i> </a>
+                        </div><!-- /.social-links -->
+                    </div><!-- /.section-holder -->
+                </div><!-- /.col-sm-4 -->
+
+                <div class="col-sm-8">
+                    <!--<div class="section-holder">
+                        <div class="icon-holder i-size-big">
+                            <i class="ion-ios-email-outline"></i>
+                        </div>
+                        <h3> Reach me </h3>
+                        <form class="form-horizontal" id="contactForm">
+                            <div class="form-group">
+
+                               <div class="col-sm-6">
+
+                                   <input type="text" class="form-control" id="inputName" placeholder="Your Name" required>
+                                    <span class="form-control-feedback">
+                                        <i class="ion-ios-grid-view-outline"></i>
+                                    </span>
+
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Your Email" required>
+
+                                    <span class="form-control-feedback">
+                                        <i class="ion-ios-grid-view-outline"></i>
+                                    </span>
+                                </div>
+                            </div>&lt;!&ndash; /.form-group &ndash;&gt;
+
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="inputPhone" placeholder="Phone (optional)">
+
+                                    <span class="form-control-feedback">
+                                        <i class="ion-ios-grid-view-outline"></i>
+                                    </span>
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="inputSubject" placeholder="Subject" required>
+
+                                    <span class="form-control-feedback">
+                                        <i class="ion-ios-grid-view-outline"></i>
+                                    </span>
+                                </div>
+                            </div>&lt;!&ndash; /.form-group &ndash;&gt;
+                            <div class="form-group message">
+                                <div class="col-sm-12">
+                                    <textarea class="form-control" id="inputMessage" rows="4" placeholder="Message" required></textarea>
+
+                                    <span class="form-control-feedback">
+                                        <i class="ion-ios-grid-view-outline"></i>
+                                    </span>
+                                </div>
+                            </div>&lt;!&ndash; /.form-group &ndash;&gt;
+                            <div class="form-group">
+                                <div class="col-sm-8">
+                                    <button type="submit" id="form-submit" class="btn btn-cl">Send Message</button>
+                                </div>
+                            </div>&lt;!&ndash; /.form-group &ndash;&gt;
+                            <div class="clearfix"></div>
+                        </form>&lt;!&ndash; /.contact-form &ndash;&gt;
+                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                    </div>&lt;!&ndash; /.section-holder &ndash;&gt;-->
+                </div><!-- /.col-sm-8 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /.contact -->
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                </div><!-- /.col-sm-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /.contact -->
+
+    <!-- js -->
+    <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.lettering.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.textillate.js" type="text/javascript"></script>
+    <script src="assets/js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.waypoints.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.counterup.js" type="text/javascript"></script>
+    <script src="assets/js/wow.min.js" type="text/javascript"></script>
+    <script src="assets/js/smoothscroll.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.nav.js" type="text/javascript"></script>
+    <script src="assets/js/validator.min.js" type="text/javascript"></script>
+    <script src="assets/js/script.js" type="text/javascript"></script>
+    <!--<script src="assets/contact/contact.js"></script>-->
+
+    <!-- loader js -->
+     <script type="text/javascript">
+        $(window).load(function() {
+            $("#loader").delay(2000).fadeOut("slow");
+        });
     </script>
+
 </body>
+
 </html>
