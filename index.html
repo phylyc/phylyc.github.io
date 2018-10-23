@@ -38,6 +38,7 @@
         <ul class="menu-ul">
             <li> <a href="#about"> About </a> </li>
             <li> <a href="#skill-education"> Education </a> </li>
+            <li> <a href="#patents"> Patents </a> </li>
             <li> <a href="#portfolio"> Publications </a> </li>
             <li> <a href="#experience-testimonials"> Experience </a> </li>
             <li> <a href="#fun-fact"> Silliness </a> </li>
@@ -104,11 +105,9 @@
                         <h4> Name: Philipp Hähnel </h4>
                         <!--<h4> Date of birth:  </h4>-->
                         <h4> Nationality: German </h4>
-                        
-                         <div class="social-links">
-                            <a href="https://github.com/phylyc"> <i class="ion-social-github-outline i-size-small"></i> </a>
-                            <a href="https://www.linkedin.com/in/philipp-haehnel"> <i class="ion-social-linkedin-outline i-size-small"></i> </a>
-                         </div><!-- /.social-links -->
+                        <a href="https://scholar.google.com/citations?user=1OjVnMsAAAAJ&hl=en"> <i class="ion-ios-albums-outline i-size-small"></i> </a>
+                        <a href="https://github.com/phylyc"> <i class="ion-social-github-outline i-size-small"></i> </a>
+                        <a href="https://www.linkedin.com/in/philipp-haehnel"> <i class="ion-social-linkedin-outline i-size-small"></i> </a>
                         <!-- id used as tooltip title -->
                         <a class="tooltip-cl cv-download" data-tooltip="Download CV" href="https://github.com/phylyc/phylyc.github.io/raw/master/assets/cv.pdf"> <i class="ion-ios-download-outline i-size-small"></i> </a>
 
@@ -135,8 +134,8 @@
                             <i class="ion-erlenmeyer-flask"></i>
                         </div>
                         <h4> Research Interests </h4>
-                        <p> (<b>AI</b>): general AI | reinforcement learning | deep learning | adversarial learning | natural language processing | generic algorithms </p>
-                        <p> (<b>Physics</b>): higher spin theories | gauge/gravity duality and holography | AdS/CFT correspondence | quantum gravity | scattering amplitudes | twistor theory </p>
+                        <p> (<b>AI</b>): general AI | reinforcement learning | deep learning | symmetry and invariance | multi-agent systems | adversarial learning | mathematical foundations </p>
+                        <p> (<b>Physics</b>): higher spin theories | gauge/gravity duality and holography | AdS/CFT correspondence | quantum gravity | scattering amplitudes | twistor theory | gauge field theory </p>
                         <br>
                         
                         <!-- hobbies -->
@@ -252,7 +251,7 @@
                                 <div class="skillbar-bar to-animate">
                                 </div>
                                 <div class="skill-bar-percent">
-                                    >1 year
+                                    >1.5 years
                                 </div>
                             </div> <!-- /.skill bar -->
                             
@@ -313,6 +312,19 @@
                         <h4 class="skill-title"> Intermediate </h4><!-- /.skill type name -->
                             <div class="skillbar clearfix" data-percent="100%">
                                 <div class="skillbar-title">
+                                    <span>MongoDB</span>
+                                </div>
+                                <div class="skillbar-bg">
+                                </div>
+                                <div class="skillbar-bar">
+                                </div>
+                                <div class="skill-bar-percent">
+                                    >1 year
+                                </div>
+                            </div> <!-- /.skill bar -->
+
+                            <div class="skillbar clearfix" data-percent="100%">
+                                <div class="skillbar-title">
                                     <span>Matlab / Scilab</span>
                                 </div>
                                 <div class="skillbar-bg">
@@ -353,6 +365,19 @@
                         
                         <div class="skill-area">
                         <h4 class="skill-title"> Beginner </h4><!-- /.skill type name -->
+                            <div class="skillbar clearfix" data-percent="100%">
+                                <div class="skillbar-title">
+                                    <span>Tensorflow</span>
+                                </div>
+                                <div class="skillbar-bg">
+                                </div>
+                                <div class="skillbar-bar">
+                                </div>
+                                <div class="skill-bar-percent">
+                                    >5 months
+                                </div>
+                            </div> <!-- /.skill bar -->
+
                             <div class="skillbar clearfix" data-percent="100%">
                                 <div class="skillbar-title">
                                     <span>C</span>
@@ -487,6 +512,41 @@
         </div><!-- /.container -->
     </section><!-- /.skill & education -->
 
+    <section id="patents">
+        <!-- Big Section Background Title -->
+        <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown">patents
+        </h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                <div class="section-holder">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="icon-holder i-size-big">
+                                <i class="ion-bonfire"></i>
+                            </div>
+                            <h3> Patent Applications </h3>
+                        </div><!-- /.col-sm-12 -->
+                    </div><!-- /.row -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ol>
+                                <li>
+                                    <h4 class="title">Deep learning for PDE-based Models</h4>
+                                    <h5 class="tag"> P. Haehnel, Jakub Marecek, Julien Monteil, Fearghal O'Donncha:
+                                        filed through I.B.M. with USPTO on Sep 4th, 2018
+                                    </h5>
+                                </li>
+                            </ol>
+                        </div><!-- /.row -->
+                    </div><!-- /.row -->
+                </div><!-- /.section-holder -->
+                </div><!-- /.col-sm-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /.patents -->
+
     <section id="portfolio">
         <!-- Big Section Background Title -->
         <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown">publications
@@ -508,8 +568,21 @@
                         <div class="col-sm-12">
                             <ol>
                                 <li>
+                                    <h4 class="title">Scaling up Deep Learning for PDE-based Models</h4>
+                                    <h5 class="tag"> P. Haehnel, Jakub Marecek, Julien Monteil, and Fearghal O'Donncha:
+                                        <a href="https://arxiv.org/abs/1810.09425" class="mfp-iframe popup-it"><u>arXiv:1810.09425 [cs.LG]</u></a>,
+                                    </h5>
+                                </li>
+                                <li>
+                                    <h4 class="title">Higher Spin Theories in Twistor Space</h4>
+                                    <h5 class="tag"> P. Haehnel:
+                                        <a href="http://hdl.handle.net/2262/83839" class="mfp-iframe popup-it"><u>TCD handle</u></a>,
+                                        Trinity College Dublin.School of Mathematics.MATHEMATICS, 2018
+                                    </h5>
+                                </li>
+                                <li>
                                     <h4 class="title">Conformal higher spin scattering amplitudes from twistor space</h4>
-                                    <h5 class="tag"> T. Adamo, P. Haehnel and T. McLoughlin:
+                                    <h5 class="tag"> T. Adamo, P. Haehnel, and T. McLoughlin:
                                         <a href="https://arxiv.org/abs/1611.06200" class="mfp-iframe popup-it"><u>arXiv:1611.06200 [hep-th]</u></a>,
                                         JHEP 1704:021, 2017
                                     </h5>
@@ -524,7 +597,7 @@
                                 </li>
                                 <li>
                                     <h4 class="title">On force-field models of the spacecraft flyby anomaly</h4>
-                                    <h5 class="tag"> W. Hasse, E. Birsin and P. Haehnel:
+                                    <h5 class="tag"> W. Hasse, E. Birsin, and P. Haehnel:
                                         <a href="https://arxiv.org/abs/0903.0109" class="mfp-iframe popup-it"><u>arXiv:0903.0109 [gr-qc]</u></a>
                                     </h5>
                                 </li>
@@ -560,10 +633,32 @@
                                         <div class="icon-holder-time wow fadeIn">
                                             <i class="ion-ios-circle-outline"></i>
                                         </div>
+                                        <h4 class="time-title">Fellow</h4>
+                                        <h5 class="time-semitag"> Institute for Pure and Applied Mathematics, UCLA </h5>
+                                        <p>
+                                            <a href="http://www.ipam.ucla.edu/programs/long-programs/science-at-extreme-scales-where-big-data-meets-large-scale-computing/"><u>Science at Extreme Scales: Where Big Data Meets Large-Scale Computing</u></a>
+                                        </p>
+                                        <p>
+                                            Leading a study group focusing on exploring and exploiting symmetries and invariants in algorithm design and data analysis; partaking in study groups on scalability, model development, and reinforcement learning
+                                        </p>
+                                    </div>
+                                    <div class="work-item-icon">
+                                    </div>
+                                </div><!-- /.col-md-12 -->
+
+                                <div class="col-sm-12">
+                                    <div class="time-item">
+                                        <div class="time-year">
+                                            2018
+                                        </div>
+                                        <div class="icon-holder-time wow fadeIn">
+                                            <i class="ion-ios-circle-outline"></i>
+                                        </div>
                                         <h4 class="time-title">Research Scientist Intern</h4>
                                         <h5 class="time-semitag"> I.B.M., Dublin, Ireland </h5>
                                         <p>
-                                            Deep learning and adversarial learning for pollution modelling and forecasting, using traffic and weather data
+                                            Deep learning for pollution modelling and forecasting, using traffic and weather data, replacing an expensive PDE-based model with a scalable ML model by imposing consistency constraints across the boundaries of the small domains of a mesh that decomposes a larger domain
+
                                         </p>
                                     </div>
                                     <div class="work-item-icon">
@@ -921,6 +1016,8 @@
                         <h3> Let's Talk </h3>
                         <h5>Location: Dublin</h5>
                         <h5>Email: haehnel [at] maths.tcd.ie</h5>
+                        <h5></h5>
+                        <h5>Last Update: October 22, 2018</h5>
                         <!--<a href="https://www.google.com/maps/place/Trinity+College+Dublin/@53.3436835,-6.2606469,14z" class="mfp-iframe popup-it"><h4 class="map-open"> Open Map </h4></a>-->
                         <div class="social-links">
                             <a href="https://github.com/phylyc"> <i class="ion-social-github-outline i-size-small"></i> </a>
